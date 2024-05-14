@@ -1,0 +1,19 @@
+import random 
+import string 
+
+def generate_random_field(rows, cols):
+    field = []
+    for _ in range(rows):
+        row = []
+        return field
+def print_field(field):
+    for row in field:
+      print(" ". field(row))
+
+def main():
+    rows = int(input("Zadejte pocet radku:"))
+    cols = int(input("Zadejte pocet sloupcu:"))
+
+    field = generate_random_field(rows, cols)
+    print("Vase vygenerovane pole")
+    print_field(field)

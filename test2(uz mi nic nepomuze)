@@ -1,0 +1,27 @@
+import random
+
+pocet_bodu = 0
+kolo_print = 0
+
+pocet_print = random.randint(1,15)
+for x in range(pocet_print):
+    pole_random = []
+
+lenght = random.randint(1,15)
+
+for x in range(lenght):
+    pole_random.append(1)
+
+print(pole_random)
+kolo_print = kolo_print +1
+
+print("kolo", kolo_print)
+
+delka_pole = int(input("zadejte delku pole:"))
+                       
+if delka_pole == lenght:
+    pocet_bodu = pocet_bodu +1   
+    print("sikulaaaa, mas bod!!!", pocet_bodu)
+else:
+    pocet_bodu = pocet_bodu
+    print("chyba hahaahaaa, nemas bod", pocet_bodu)
